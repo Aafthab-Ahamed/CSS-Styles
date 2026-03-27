@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(16, 18, 17);
+  display: grid;
+  place-content: center;
+}
+
+section {
+  width: 40rem;
+  height: 40rem;
+  background-color: rgb(39, 39, 39);
+  margin: 10rem;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+  display: grid;
+  place-items: center;
+}
+
+section.one {
+  background-image:
+    linear-gradient(transparent 50%, hsl(231, 53%, 75%, 0.5) 50%),
+    linear-gradient(90deg, hsl(226, 39%, 32%) 50%, hsl(226, 39%, 10%) 50%);
+  background-size: 3.5rem 3.5rem;
+}
+
+section.two {
+  background-color: hsl(0, 39%, 15%);
+  background-image:
+    linear-gradient(-45deg, transparent 75%, hsl(0, 39%, 70%) 50%),
+    linear-gradient(45deg, transparent 75%, hsl(0, 39%, 70%) 75%),
+    linear-gradient(135deg, transparent 75%, hsl(0, 39%, 70%) 50%),
+    linear-gradient(-135deg, transparent 75%, hsl(0, 39%, 70%) 50%);
+  background-size: 3.5rem 3.5rem;
+  background-position:
+    2rem 0,
+    2rem 0,
+    0 0,
+    0 0;
+}
+
+section.three {
+  background-color: #202222;
+  background-image:
+    radial-gradient(circle, transparent 1rem, #202020 1rem),
+    linear-gradient(teal 0.5rem, transparent 0.5rem),
+    linear-gradient(90deg, teal 0.4rem, transparent 0.4rem);
+  background-size: 4rem 4rem;
+  background-position:
+    2.2rem 2.2rem,
+    0 0,
+    0 0;
+}
+
+section.four {
+  background-color: seagreen;
+  background-image: radial-gradient(circle, transparent 0.4rem, #202222 0.4rem);
+  background-size: 2.5rem 2.5rem;
+}
+
+section.five {
+  background-color: #202222;
+  background-image:
+    radial-gradient(
+      circle at 100% 50%,
+      transparent 1rem,
+      #a1b1c1 1rem,
+      #a1b1c1 1.5rem,
+      transparent 1.5rem
+    ),
+    radial-gradient(
+      circle at 0% 50%,
+      transparent 1rem,
+      #a1b1c1 1rem,
+      #a1b1c1 1.5rem,
+      transparent 1.5rem
+    );
+  background-size: 5rem 5rem;
+  background-position:
+    0 0,
+    0 2.5rem;
+}
