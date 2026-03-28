@@ -1,6 +1,6 @@
 # CSS Pattern Gallery
 
-A collection of procedural textures and patterns created entirely using CSS `linear-gradient` and `radial-gradient` functions. No external image assets are required for the backgrounds.
+A collection of procedural textures and patterns created entirely using CSS `linear-gradient` and `radial-gradient` functions. No external image assets are required for the backgrounds. https://aafthab-ahamed.github.io/CSS-Styles/
 
 ## 🚀 Features
 
